@@ -1,0 +1,34 @@
+{
+    "employes":[
+        {
+            "id":"e1",
+            "nomEmp":"Kaldi",
+            "prenom":"Khalid",
+            "post":"Directeur",
+            "departement":{
+                "codeDep":"1",
+                "nomDep":"RH"
+            }
+        },
+        {
+            "id":"e2",
+            "nomEmp":"Alami",
+            "prenom":"Alim",
+            "post":"Directeur",
+            "departement":{
+                "codeDep":"2",
+                "nomDep":"Compta"
+            }
+        },
+        {
+            "id":"e3",
+            "nomEmp":"Ahmadi",
+            "prenom":"Ahmad",
+            "post":"informatetion",
+            "departement":{
+                "codeDep":"1",
+                "nomDep":"iformatique"
+            }
+        }
+    ]
+}

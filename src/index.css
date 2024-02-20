@@ -1,0 +1,53 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#messagearea{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#conarea{
+    z-index: 2;
+}
+#flech{
+    z-index: 1;
+    transform: skewX(125deg);
+}
+
+#flech2{
+    transform: skewX(45deg);
+}
+
+#LoginSignupform{
+    transform: scale(0.80);
+    margin-top: -500px;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+    ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  #conver{
+    /* transform: rotate(180deg); */
+  }
+  
+  #conv{
+    /* transform: rotate(180deg); */
+  }
